@@ -1,7 +1,9 @@
-#include <stdlib.h>
+#include <stdio.h>
+
 
 /**
- * main - Entry point
+ * main - finds and prints the sum of the even-valued terms
+ * followed by a new line
  *
  * Return: Always 0 (Success)
  */
@@ -14,6 +16,7 @@ int main(void)
 
 	j = 1;
 	k = 2;
+
 	sum = 0;
 
 	for (i = 1; i <= 33; ++i)
